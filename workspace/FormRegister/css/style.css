@@ -1,0 +1,129 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    margin-top: 100px;
+    margin-left: 50%;
+}
+.container{
+    flex-direction: row;
+    display: flex;
+    margin-top: 10px;
+    width: 343px;
+    height: 464px;
+    border: 4px solid #7d2020;
+    border-radius: 6px;
+    box-shadow: 0 0 0 2px ;
+}
+.social{
+    margin-top: 30px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 10px;
+
+}
+.images{
+    background-image: url("/FormRegister/images/illustration.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.btn{
+    display:flex;
+    justify-content:space-around;
+    gap: 10px;
+   
+
+}
+.btn-1,.btn-2{
+    border: 3px solid #ac1515;
+    padding: 6px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
+.or{
+    text-align: center;
+    margin-bottom: 10px;
+}
+label{
+    margin: 10px;
+}
+button{
+    height: 40px;
+    width: 100px;
+    color: aliceblue;
+    border-radius: 10px;
+    background: red;
+    margin-top: 20px;
+}
+ */
+body{ width: 380px;
+    margin: auto auto;
+    font-family: sans-serif;
+    border: 2px solid;
+}
+form{
+    width: 380px;
+    height: 480px;
+    margin: 20px auto;
+    background-color: rgb(188, 199, 198);
+    border-radius: 7px;
+
+}
+.btn{
+    display: flex;
+    gap: 10px;
+    padding-left: 10px;
+}
+.btn-1,.btn-2{
+    padding: 6px 10px;
+    margin: 15px;
+    margin-left: 25px;
+    border: 2px solid;
+    border-radius: 7px;
+
+}
+.A{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.B{
+    margin-bottom: 20PX;
+}
+.or{
+    text-align: center;
+}
+button{
+    margin-top: 20px;
+    margin-left: 140px;
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+    color: aliceblue;
+    background-color: brown;
+}
+input{
+    width: 200px;
+    height: 25px;
+    border-radius: 7px;
+    padding-left: 10px;
+    margin-left: 75px;
+}
+.title{
+    font-size: 20px;
+    padding-top: 10px;
+    font-style: italic;
+}
+.question{
+    padding-top: 10px;
+}
+
